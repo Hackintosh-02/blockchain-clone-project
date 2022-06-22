@@ -1,0 +1,539 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    /* width: ; */
+    border: 0px;
+    /* margin-right: 4px; */
+    /* background-color: black; */
+
+}
+
+.top{
+    /* margin-bottom: 75px; */
+    /* margin-top: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 100vw;
+    font-size: 1rem;
+    padding: 15px 15px;
+    background-image: linear-gradient(to right, rgb(9, 86, 191), rgb(4, 64, 143), rgb(2, 54, 120), rgb(4, 64, 143), rgb(9, 86, 191)); 
+    /* text-align: center; */
+    color:aliceblue;
+}
+
+.banner{
+    display: flex;
+    /* justify-content: left; */
+    background-color: rgb(18, 29, 51);
+    /* margin-right: 120px; */
+    height: 100px;
+    width: 100vw;
+    justify-content:space-around;
+
+}
+
+.banner-left{
+    display: flex;
+    justify-content: center;
+
+    width: 650px;
+}
+
+.banner-right{
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+    justify-content: space-between;
+}
+
+#logo{
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 75px;
+    width: 300px;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+
+.login{
+    cursor: pointer;
+    padding: 9px 9px;
+    border: 3px solid;
+    border-color: aliceblue;
+    font-family: sans-serif;
+    border-radius: 12px;
+    color: white;
+}
+
+.signup{
+    padding: 10px 10px;
+    background-color: white;
+    margin-left: 24px;
+    border: 3px solid;
+    border-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(18, 29, 51);
+}
+
+
+
+.mid {
+    background-image: url(https://www.blockchain.com/static/img/home/home-hero-gradient.svg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    color: rgb(255, 255, 255);
+}
+
+/* ul{
+    text-decoration: none;
+} */
+
+.options{
+    display: flex;
+    margin-top: 10px;
+    font-family: sans-serif ;
+	color: rgb(204, 210, 222);
+	padding: 0.25rem;
+	border-radius: 0.25rem;
+	position:  relative;
+	width: 100%;
+	font-size: 15px;
+    justify-content: space-between;
+}
+
+.options a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-right: 29px;
+    /* padding-top: 10px 10px; */
+}
+
+#only{
+    margin-top: 20px;
+}
+
+.aligner{
+    width: 693px;
+    /* height: 100px; */
+    /* background-color: black; */
+    margin-left: 300px;
+}
+
+.aligner h1{
+    padding-top: 135px;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+.aligner p{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+
+.mid2{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 10px 10px;
+    background-color: white;
+    margin-left: 24px;
+    border: 3px solid;
+    border-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(18, 29, 51); */
+}
+.mid2 a{
+    
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    margin-right: 29px;
+    /* padding-top: 10px 10px; */
+    
+}
+
+.mid2 #get{
+    text-decoration: none;
+    color: aliceblue;
+    border: 4px solid transparent;
+    background-color: rgb(12, 108, 242);
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+}
+
+.mid #log{
+    margin-left: 2vw;
+    border: 4px solid transparent;
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.wallet-banner{
+    display: flex;
+    margin: 170px 115px;
+    max-width: 79.4rem;
+    min-height: 52.5rem;
+    height: 600px;
+    border: 0px solid transparent ;
+    background-color: rgba(239, 236, 254, 0.5);
+    border-radius: 30px;
+}
+
+.wallet-right{
+    /* background-color:aquamarine; */
+    display: flex;  /*flex added here*/
+    background-image: url(box2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 0px 160px;
+    width: 640px;
+    height: 840;;
+}
+
+.wallet-right img{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 350px;
+    height: 500px;
+}
+
+.wallet-left{
+    /* background-color: antiquewhite; */
+    padding-top: 36px;
+    margin-left: 150px;
+    margin-top: 20px;
+    max-width: 600px;;
+    font-family: sans-serif;
+    color: rgb(115, 73, 242);
+}
+.wallet{
+    background-color: rgba(239,236,254,255);
+    background-image: url(wallet1.png.png);
+    background-repeat: no-repeat;
+    border: 4px solid transparent;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+}
+
+/* .wallet img{
+    margin-left: 10px;
+    width: 110px;
+    height: 60px;
+} */
+.wallet p{
+    margin-left: 3rem;
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+.easy{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.points p{
+    border: 1px solid ;
+    border-color: rgb(222, 216, 253);
+    margin-top: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 15px 15px;
+
+}
+
+#onlythis{
+    margin-top: 40px;
+    background-color:rgba(239,236,254,255);
+}
+
+#gets{
+    border: 4px solid transparent;
+    background-color: rgb(115, 73, 242);
+    margin-top: 55px;
+    margin-right: 451px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    color:white;
+}
+
+.binoc-banner{
+    display: flex;
+    margin: 170px 115px;
+    max-width: 79.4rem;
+    min-height: 52.5rem;
+    height: 600px;
+    border: 0px solid transparent ;
+    background-color: rgba(255, 242, 229, 0.5);
+    border-radius: 30px;
+    color: rgb(242, 139, 36);
+}
+
+.binoc-right{
+    /* background-color:aquamarine; */
+    background-image: url(home-explorer-shapes-bg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    width: 550px;
+    height: 840;;
+}
+
+.binoc-right img{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 350px;
+    height: 500px;
+}
+
+.points #explo{
+    background-color: rgb(242, 139, 36);
+    color: white;
+    margin-top: 55px;
+    margin-right: 451px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+
+.binoc-left{
+    /* background-color: antiquewhite; */
+    padding-top: 36px;
+    margin-left: 150px;
+    margin-top: 20px;
+    max-width: 600px;;
+    font-family: sans-serif;
+    color:  rgb(242, 139, 36);
+}
+
+.binoc{
+    background-color: rgb(255, 242, 229);
+    background-image: url(binoc1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 4px solid transparent;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+}
+
+.binoc p{
+    margin-left: 3rem;
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+#exp{
+    border-color: rgb(250, 228, 205);
+}
+
+.bottom-banner{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color: black;
+    background-image: url(banner-bg.svg);
+    display: flex;
+    background-repeat: no-repeat;
+    height: 14rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-banner h1{
+    padding-left: 20rem;
+}
+
+.bottom-banner p{
+    border: 4px solid transparent;
+    background-color: white;
+    margin-top: -5px;
+    margin-right: 328px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    color:rgb(12, 108, 242);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+.footerwidth{
+    display: flex;
+    margin-top: 8rem;
+    /* background-color: blueviolet; */
+    width: 62rem;
+    height: 32rem;
+}
+.blockchain{
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.blockchain p{
+    padding-top: 1.2rem;
+}
+
+.blockchain h2 b{
+    font-weight: 700;
+}
+.products{
+    padding-left: 15rem;
+}
+.resources{
+    padding-left: 12rem;
+    width: 1.6rem;
+}
+.company{
+    padding-left: 12rem;
+}
+
+#diff{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-left{
+    display: flex;
+    /* background-color: aqua; */
+    width: 16rem;
+    height: 12rem;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.footer-right{
+    display: flex;
+}
+/* .apple{
+    background-image: url(apple.png);
+} */
+.apple{
+    width: 20px;
+    margin-left: 20rem;
+}
+.apple{
+    width: 20px;
+    margin-left: 20rem;
+}
+
+.apple img{
+    border: 4px solid ;
+    border-color: black;
+    border-radius: 12px;
+    width: 200px;
+    margin-left: 12px;
+    margin-top:7.5rem;
+}
+.google img{
+    border: 4px solid ;
+    border-color: black;
+    border-radius: 12px;
+    width: 200px;
+    margin-left: 15rem;
+    margin-top:7.5rem;
+}
+/* 
+.footerwidth #footfin{
+    height: 12px;
+    /* width: 1px; */
+
+.lang{
+    /* background-color: brown; */
+    background-image: url(lang.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 63px;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-right: 10px;
+
+}
+.bl{
+    /* background-color: brown; */
+    background-image: url(link.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 63px;
+    height: 2rem;
+    font-size: 1.6rem;
+
+}
+.footerwidth2{
+    display: flex;
+    margin-top: 10px;
+    /* background-color: rgb(43, 144, 226); */
+    width: 62rem;
+    height: 20rem;
+}
+
+#blue{
+
+    color:rgb(43, 144, 226);
+    /* background-color: black; */
+}
+
+#twitter{
+    background-image: url(twitter.png);
+    background-size:contain;
+    text-decoration: none;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    padding-left: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#insta{
+    background-image: url(insta.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    padding-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#med{
+    background-image: url(medium.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    padding-left: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.blockchain a{
+    
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-right: 29px;
+    /* padding-top: 10px 10px; */
+    
+}
